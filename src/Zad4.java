@@ -13,7 +13,7 @@ public class Zad4 {
         String[] sciezki = liniaWejscia.split("\\s+");
 
         // Ścieżka do katalogu docelowego i pliku ZIP
-        Path katalogDocelowy = Paths.get("src/files/zapisy");
+        Path katalogDocelowy = Paths.get("src/files/zapakowane");
         Path plikZip = katalogDocelowy.resolve("archiwum_io.zip");
 
         // Tworzenie katalogu jeśli nie istnieje
