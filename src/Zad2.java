@@ -13,7 +13,7 @@ public class Zad2 {
 
         // Ścieżka do katalogu i pliku wynikowego
         String katalogDocelowy = "src/files/zapisy";
-        String nazwaPlikuWynikowego = katalogDocelowy + "/wynik.txt";
+        String nazwaPlikuWynikowego = katalogDocelowy + "/wynik_io.txt";
 
         // Upewniamy się, że katalog istnieje – jak nie, to tworzymy
         File katalog = new File(katalogDocelowy);
