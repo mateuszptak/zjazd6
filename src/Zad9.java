@@ -24,7 +24,7 @@
 
  przyklad?
 
- Jezeli funkcja przetwarzajaca dane otrzyma ich niepoprawny format moze rzucic wyjatkiem ktory bedzie przechwycony na wyzszym poziomie apki ktory zostanie wyswietlony uzytkownikowi
+ Jezeli funkcja przetwarzajaca dane.txt otrzyma ich niepoprawny format moze rzucic wyjatkiem ktory bedzie przechwycony na wyzszym poziomie apki ktory zostanie wyswietlony uzytkownikowi
 
 
  ------- Kiedy obsluzyc wyjatek? -------
@@ -38,7 +38,7 @@
  try {
     processor.process(null);
 } catch (InvalidInputException e) {
-    System.out.println("Niepoprawne dane wejściowe: " + e.getMessage());
+    System.out.println("Niepoprawne dane.txt wejściowe: " + e.getMessage());
     // np. poprosić użytkownika o ponowne wprowadzenie danych
 }
 
